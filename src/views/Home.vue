@@ -15,6 +15,6 @@ export default createComponent({
   components: {
     IntroductionHero,
     IntroductionSocialNetworks,
-  }
+  },
 });
 </script>

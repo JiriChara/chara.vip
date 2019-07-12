@@ -3,13 +3,14 @@ import Vuex, { StoreOptions } from 'vuex';
 
 import navbar from '@/store/navbar';
 import { RootState } from '@/store/types';
-import packageJson from '@/../package.json';
+
+import { version } from '@/../package.json';
 
 Vue.use(Vuex);
 
 const store: StoreOptions<RootState> = {
   state: {
-    version: packageJson.version,
+    version,
   },
 
   modules: {
