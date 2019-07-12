@@ -32,10 +32,6 @@
             <span>Home</span>
           </router-link>
 
-          <router-link :to="{ name: 'About' }" class="navbar-item">
-            <span>About Me</span>
-          </router-link>
-
           <router-link :to="{ name: 'Projects' }" class="navbar-item">
             <span>Projects</span>
           </router-link>
