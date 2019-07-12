@@ -1,10 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
+
+import store from '@/store';
+import Home from '@/views/Home.vue';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -17,13 +19,21 @@ export default new Router({
     {
       path: '/projects',
       name: 'Projects',
-      component: () => import(/* webpackChunkName: "about" */ './views/Projects.vue'),
+      component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue'),
     },
 
     {
       path: '/resume',
       name: 'Resume',
-      component: () => import(/* webpackChunkName: "about" */ './views/Resume.vue'),
+      component: () => import(/* webpackChunkName: "resume" */ './views/Resume.vue'),
     },
   ],
 });
+
+router.beforeEach((to, from, next) => {
+  store.dispatch('navbar/hideMobileMenu');
+
+  next();
+});
+
+export default router;
