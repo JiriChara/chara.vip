@@ -5,17 +5,17 @@
 
 
       <p>
-        My name is Jiří Chára and I currently work as a senior fron-end developer at
+        My name is Jiří Chára and I currently work as a senior front-end developer at
         <a href="https://www.xbav.de">xbAV</a>. I live in Munich, but I can call many
-        places home. I love traveling, music, spicy food, running, cocunuts, Thailand, sun,
+        places home. I love traveling, music, spicy food, running, coconuts, Thailand, sun,
         drones...
       </p>
 
       <p>
-        I am passionate about building an excellent software that improves the lives of those around
-        me. I specialize in creating software for clients ranging from small-businesses all the way
-        to large enterprise corporations. I like to build a contribute to open source to help other
-        developers becoming productive and successful.
+        I am passionate about building excellent software that improves the lives of those around
+        me. I specialize in creating software for clients ranging from small businesses to large
+        enterprise corporations. I like to build and contribute to open source to help other
+        developers becoming productive and more successful.
       </p>
 
       <p>
@@ -37,23 +37,19 @@
           <b-icon
             icon="xing"
             pack="fab" />
-          Xing
-        </a>
-        .
+          Xing</a>.
       </p>
 
       <p>
         Get a glimpse of my life story on
         <a
-          href="https://www.instagram.com/ch4rass/"
+          href="https://www.instagram.com/ch4rass"
           class="instagram"
         >
           <b-icon
             icon="instagram"
             pack="fab" />
-          Instagram
-        </a>
-        .
+          Instagram</a>.
       </p>
 
       <p>
@@ -65,9 +61,7 @@
           <b-icon
             icon="github"
             pack="fab" />
-          GitHub
-        </a>
-        .
+          GitHub</a>.
       </p>
 
      <p>
@@ -89,9 +83,7 @@
           <b-icon
             icon="spotify"
             pack="fab" />
-          Spotify
-        </a>
-        .
+          Spotify</a>.
       </p>
     </div>
   </section>
