@@ -6,6 +6,8 @@ import store from '@/store';
 
 import '@/registerServiceWorker';
 
+import '@/styles/main.scss';
+
 Vue.config.productionTip = false;
 
 const app = new Vue({

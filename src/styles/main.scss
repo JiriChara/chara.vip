@@ -1,0 +1,22 @@
+@import '~bulma/sass/utilities/_all';
+
+$font-path: '../assets/fonts/';
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Advent Pro Regular'), local('AdventPro-Regular'),
+    url($font-path + 'advent-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url($font-path + 'advent-pro-v9-latin-regular.woff2') format('woff2'),
+    url($font-path + 'advent-pro-v9-latin-regular.woff') format('woff'),
+    url($font-path + 'advent-pro-v9-latin-regular.ttf') format('truetype'),
+    url($font-path + 'advent-pro-v9-latin-regular.svg#AdventPro') format('svg');
+}
+
+$family-sans-serif: 'Advent Pro', sans-serif;
+$family-primary: 'Advent Pro', sans-serif;
+$body-size: 25px;
+
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
