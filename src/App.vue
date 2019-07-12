@@ -1,8 +1,21 @@
 <template>
   <div id="app">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <jch-navbar />
 
     <router-view/>
+
+    <jch-footer />
   </div>
 </template>
+
+<script>
+import JchNavbar from '@/components/Navbar.vue';
+import JchFooter from '@/components/Footer.vue';
+
+export default {
+  components: {
+    JchNavbar,
+    JchFooter,
+  },
+};
+</script>

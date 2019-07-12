@@ -1,22 +1,39 @@
-@import '~bulma/sass/utilities/_all';
+@import '@/styles/variables.scss';
 
 $font-path: '../assets/fonts/';
 
+/* advent-pro-regular - latin-ext_latin */
 @font-face {
   font-family: 'Advent Pro';
   font-style: normal;
   font-weight: 400;
-  src: local('Advent Pro Regular'), local('AdventPro-Regular'),
-    url($font-path + 'advent-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url($font-path + 'advent-pro-v9-latin-regular.woff2') format('woff2'),
-    url($font-path + 'advent-pro-v9-latin-regular.woff') format('woff'),
-    url($font-path + 'advent-pro-v9-latin-regular.ttf') format('truetype'),
-    url($font-path + 'advent-pro-v9-latin-regular.svg#AdventPro') format('svg');
+  src: url($font-path + '/advent-pro-v9-latin-ext_latin-regular.eot');
+  src:
+    local('Advent Pro Regular'), local('AdventPro-Regular'),
+    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.woff2') format('woff2'),
+    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.woff') format('woff'),
+    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.ttf') format('truetype'),
+    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.svg#AdventPro') format('svg');
 }
 
 $family-sans-serif: 'Advent Pro', sans-serif;
 $family-primary: 'Advent Pro', sans-serif;
 $body-size: 25px;
+$primary: #D95560;
+$link: #03738C;
+$info: #04C4D9;
+$navbar-breakpoint: $desktop;
+$section-padding: 1.5rem 1.5rem;
+$link: $theme-color-4;
+$link-hover: $theme-color-5;
+$link-visited: $theme-color-4;
 
+::selection {
+  color: $white; 
+  background: $theme-color-2;
+}
+
+@import '~bulma/sass/utilities/_all';
 @import '~bulma';
 @import '~buefy/src/scss/buefy';
