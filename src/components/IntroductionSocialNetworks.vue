@@ -8,7 +8,7 @@
         My name is Jiří Chára and I currently work as a senior front-end developer at
         <a href="https://www.xbav.de">xbAV</a>. I live in Munich, but I can call many
         places home. I love traveling, music, spicy food, running, coconuts, Thailand, sun,
-        drones...
+        drones and making long comma-separated lists.
       </p>
 
       <p>
@@ -17,6 +17,8 @@
         enterprise corporations. I like to build and contribute to open source to help other
         developers becoming productive and more successful.
       </p>
+
+      <hr />
 
       <p>
         Let's connect on

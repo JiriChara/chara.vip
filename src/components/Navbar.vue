@@ -33,11 +33,7 @@
           </router-link>
 
           <router-link :to="{ name: 'Projects' }" class="navbar-item">
-            <span>Projects</span>
-          </router-link>
-
-          <router-link :to="{ name: 'Resume' }" class="navbar-item">
-            <span>Resume</span>
+            <span>Works</span>
           </router-link>
         </div>
       </div>

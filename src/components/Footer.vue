@@ -33,6 +33,17 @@ export default createComponent({
 @import '@/styles/variables.scss';
 
 .footer {
+  position: relative;
   background-color: $theme-color-2;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background: url('../assets/rip.svg') bottom center;
+  }
 }
 </style>
