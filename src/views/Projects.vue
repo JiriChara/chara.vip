@@ -143,6 +143,16 @@
   </main>
 </template>
 
+<script>
+import { createComponent } from 'vue-function-api';
+
+export default createComponent({
+  metaInfo: {
+    title: 'Works',
+  },
+});
+</script>
+
 <style lang="scss" scoped>
 @import '@/styles/variables.scss';
 

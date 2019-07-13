@@ -17,6 +17,11 @@ import JchNavbar from '@/components/Navbar.vue';
 import JchFooter from '@/components/Footer.vue';
 
 export default createComponent({
+  metaInfo: {
+    title: 'Portfolio',
+    titleTemplate: '%s - Jiří Chára',
+  },
+
   components: {
     JchNavbar,
     JchFooter,
@@ -27,12 +32,12 @@ export default createComponent({
 
     onMounted(() => $Progress.finish());
 
-    onCreated(()=> {
+    onCreated(() => {
       $Progress.start();
 
       $router.beforeEach((to, from, next) => {
-        $Progress.start()
-        next()
+        $Progress.start();
+        next();
       });
 
       $router.afterEach((to, from) => {

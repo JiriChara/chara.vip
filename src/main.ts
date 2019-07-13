@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Buefy from 'buefy';
 import { plugin } from 'vue-function-api';
 import VueProgressBar from 'vue-progressbar';
+import VueMeta from 'vue-meta';
 
 import '@fortawesome/fontawesome-free/css/all.css';
 
@@ -24,6 +25,7 @@ const progressbarOptions = {
 Vue.use(plugin);
 Vue.use(Buefy);
 Vue.use(VueProgressBar, progressbarOptions);
+Vue.use(VueMeta);
 
 const app = new Vue({
   router,

@@ -12,5 +12,12 @@
   </main>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<script>
+import { createComponent } from 'vue-function-api';
+
+export default createComponent({
+  metaInfo: {
+    title: '404',
+  },
+});
+</script>
