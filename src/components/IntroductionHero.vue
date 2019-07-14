@@ -9,7 +9,7 @@
 
           <div class="column is-6-tablet is-12-mobile title">
             <h1>
-              Senior Front-End Developer <span>&amp;</span><br />
+              Senior Front-End Engineer <span>&amp;</span><br />
               JavaScript Enthusiast<br />
               Building Scalable,<br />
               Performant, Responsive <span>&amp;</span><br />

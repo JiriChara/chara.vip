@@ -22,7 +22,7 @@
         </div>
 
         <h3>
-          Minerals Value Service, Platts - McGraw Hill Financial (2011)
+          Minerals Value Service, Platts - McGraw Hill Financial (2014)
         </h3>
 
         <div class="columns is-vcentered">
@@ -48,7 +48,7 @@
         </div>
 
         <h3>
-          AppDirect (2014)
+          AppDirect (2016)
         </h3>
 
         <div class="columns is-vcentered">
@@ -67,7 +67,7 @@
 
             <p>
               <strong>AppDirect</strong> enables small companies to succeed by providing an API to
-              monetize their application through <strong>AppDirect</strong>'s ecosystem.
+              monetize their applications through <strong>AppDirect</strong>'s ecosystem.
             </p>
 
             <p>
