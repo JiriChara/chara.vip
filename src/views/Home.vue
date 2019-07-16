@@ -1,8 +1,8 @@
 <template>
-  <main>
+  <div>
     <introduction-hero />
     <introduction-social-networks />
-  </main>
+  </div>
 </template>
 
 <script>

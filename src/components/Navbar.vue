@@ -35,6 +35,10 @@
           <router-link :to="{ name: 'Projects' }" class="navbar-item">
             <span>Works</span>
           </router-link>
+
+          <router-link :to="{ name: 'CurriculumVitae' }" class="navbar-item">
+            <span>Curriculum vitae</span>
+          </router-link>
         </div>
       </div>
     </div>

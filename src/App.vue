@@ -2,7 +2,9 @@
   <div id="app">
     <jch-navbar />
 
-    <router-view />
+      <main>
+        <router-view />
+      </main>
 
     <vue-progress-bar />
 

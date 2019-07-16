@@ -23,6 +23,12 @@ const router = new Router({
     },
 
     {
+      path: '/cv',
+      name: 'CurriculumVitae',
+      component: () => import(/* webpackChunkName: "cv" */ './views/CurriculumVitae.vue'),
+    },
+
+    {
       path: '*',
       name: 'not-found',
       component: () => import(/* webpackChunkName: "notfound" */ './views/NotFound.vue'),
