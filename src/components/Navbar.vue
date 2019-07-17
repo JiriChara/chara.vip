@@ -6,7 +6,7 @@
           :to="{ name: 'Home' }"
           class="navbar-item logo"
         >
-          <h1><span>J</span>iří <span>Ch</span>ára</h1>
+          <h1>Jiří Chára</h1>
         </router-link>
 
         <a
@@ -74,7 +74,8 @@ export default createComponent({
   &.router-link-exact-active {
     background-color: transparent !important;
     ::first-letter {
-      color: $theme-color-4;
+      text-decoration: underline;
+      text-decoration-color: $theme-color-4;
     }
   }
 
@@ -88,9 +89,6 @@ export default createComponent({
 
   &:hover, &:focus, &:active {
     background-color: transparent !important;
-  }
-  span {
-    color: $theme-color-4;
   }
 }
 </style>
