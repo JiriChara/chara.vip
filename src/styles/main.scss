@@ -2,23 +2,50 @@
 
 $font-path: '../assets/fonts/';
 
-/* advent-pro-regular - latin-ext_latin */
 @font-face {
-  font-family: 'Advent Pro';
+  font-family: 'Ruda';
   font-style: normal;
   font-weight: 400;
-  src: url($font-path + '/advent-pro-v9-latin-ext_latin-regular.eot');
+  src: url($font-path + '/ruda-v11-latin-ext_latin-regular.eot');
   src:
-    local('Advent Pro Regular'), local('AdventPro-Regular'),
-    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
-    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.woff2') format('woff2'),
-    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.woff') format('woff'),
-    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.ttf') format('truetype'),
-    url($font-path + '/advent-pro-v9-latin-ext_latin-regular.svg#AdventPro') format('svg');
+    local('Ruda Regular'), local('Ruda-Regular'),
+    url($font-path + '/ruda-v11-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-regular.woff2') format('woff2'),
+    url($font-path + '/ruda-v11-latin-ext_latin-regular.woff') format('woff'),
+    url($font-path + '/ruda-v11-latin-ext_latin-regular.ttf') format('truetype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-regular.svg#Ruda') format('svg');
 }
 
-$family-sans-serif: 'Advent Pro', sans-serif;
-$family-primary: 'Advent Pro', sans-serif;
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 900;
+  src: url($font-path + '/ruda-v11-latin-ext_latin-900.eot');
+  src:
+    local('Ruda Black'), local('Ruda-Black'),
+    url($font-path + '/ruda-v11-latin-ext_latin-900.eot?#iefix') format('embedded-opentype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-900.woff2') format('woff2'),
+    url($font-path + '/ruda-v11-latin-ext_latin-900.woff') format('woff'),
+    url($font-path + '/ruda-v11-latin-ext_latin-900.ttf') format('truetype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-900.svg#Ruda') format('svg');
+}
+
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  src: url($font-path + '/ruda-v11-latin-ext_latin-700.eot');
+  src:
+    local('Ruda Bold'), local('Ruda-Bold'),
+    url($font-path + '/ruda-v11-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-700.woff2') format('woff2'),
+    url($font-path + '/ruda-v11-latin-ext_latin-700.woff') format('woff'),
+    url($font-path + '/ruda-v11-latin-ext_latin-700.ttf') format('truetype'),
+    url($font-path + '/ruda-v11-latin-ext_latin-700.svg#Ruda') format('svg');
+}
+
+$family-sans-serif: 'Ruda', sans-serif;
+$family-primary: 'Ruda', sans-serif;
 $body-size: 25px;
 $primary: #D95560;
 $link: #03738C;

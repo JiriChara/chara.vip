@@ -23,7 +23,7 @@
             Web Development is my passion! My professional adventure with the web started in early
             2011 and will continue for the foreseeable future. I love to learn new things and to
             improve myself as a person. My lifelong goal is to <strong>#BeatYesterday</strong>!
-            These days I specialize in building high performing single-page and progressive
+            These days I specialize in building high performing single-page and progressive web
             applications using JavaScript and TypeScript. I love contributing to open-source
             software and extending the ecosystem of JavaScript with helpful libraries and tools. I
             am always up-to-date with current trends and technologies, but I do not blindly follow
