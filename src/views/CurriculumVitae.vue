@@ -105,6 +105,84 @@
             <hr />
           </div>
         </div>
+
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+          </div>
+
+          <div class="column is-8">
+            <h5>Eaton Industries s.r.o.</h5>
+
+            <em>
+              <small class="job-title">
+                CAD Designer - Chomutov, Czech Repoblic - November 1st 2006 until August 31st 2010
+              </small>
+            </em>
+            <p>
+              <strong>Eaton</strong> produces a vast array of air conditioning lines and components.
+              As a CAD Designer at <strong>Eaton Industries</strong>, I was responsible for the
+              design of new tools and gages using CATIA V5. I was also responsible for the layout
+              of the plant and improvements in production.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+            <h4>Education</h4>
+          </div>
+
+          <div class="column is-8">
+            <h5>Brno University of Technology</h5>
+
+            <em>
+              <small class="job-title">
+                Information Technology - Brno, Czech Republic - 2005 until 2006
+              </small>
+            </em>
+
+            <hr />
+          </div>
+
+        </div>
+
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+          </div>
+
+          <div class="column is-8">
+            <h5>Industrial High School</h5>
+
+            <em>
+              <small class="job-title">
+                Mechanical Engineering CAD/CAM - Teplice, Czech Republic - 2001 until 2005
+              </small>
+            </em>
+
+            <hr />
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+          </div>
+
+          <div class="column is-8">
+            <h5>Basic School Marsovska</h5>
+
+            <em>
+              <small class="job-title">
+                Teplice, Czech Republic - 1992 until 2001
+              </small>
+            </em>
+
+            <hr />
+          </div>
+        </div>
       </div>
     </section>
   </main>

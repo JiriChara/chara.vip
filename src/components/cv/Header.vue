@@ -13,7 +13,11 @@
 
     <dl>
       <dd><small>Cell: +49 163 8522883</small></dd>
-      <dd><small>Email: jiri@chara.vip</small></dd>
+      <dd>
+        <small>
+          Email: <a href="mailto:jiri@chara.vip">jiri@chara.vip</a>
+        </small>
+      </dd>
     </dl>
 
     <div class="columns">
