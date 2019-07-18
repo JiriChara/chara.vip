@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container content">
       <h3>
-        OrganisedMinds.com (2011)
+        OrganisedMinds (2011)
       </h3>
 
       <div class="columns is-vcentered">
