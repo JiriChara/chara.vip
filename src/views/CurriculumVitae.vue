@@ -96,11 +96,10 @@
               </small>
             </em>
             <p>
-              <strong>S&amp;P Global Platts</strong> originally Minerals Value Service is an
-              analytical tool for the iron&amp;ore industry. I worked there as a front-end
-              developer using mostly Angular.js, Highcharts, Google Maps API &amp; SVG animations.
-              Minerals Value Service was a full single-page-application communicating with
-              back-end through JSON APIs.
+              As a full-stack engineer at <strong>OrganisedMinds</strong>, I was responsible for
+              building new features using Ruby on Rails, jQuery &amp; Backbone.js.
+              <strong>OrganisedMinds</strong> was a real-time application with a lot of advanced
+              drag&amp;drop features at that time. It was my first job as a web developer.
             </p>
 
             <hr />
