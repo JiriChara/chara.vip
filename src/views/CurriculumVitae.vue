@@ -13,37 +13,24 @@
             <h4>Employement History</h4>
           </div>
 
-          <div class="column is-8 first-right-column">
-            <strong>xbAV AG</strong>
+          <div class="column is-8">
+            <h5>xbAV AG</h5>
 
             <em>
               <small class="job-title">
                 Senior Front-End Engineer - Munich, Germany - April 1st 2018 until now
               </small>
             </em>
-            <ul>
-              <li><small>responsible for implementation of new features using Vue.js</small></li>
-              <li><small>responsible for front-end architecture</small></li>
-              <li>
-                <small>
-                  responsible for building of reusable components and for the maintanance of
-                  internal design system
-                </small>
-              </li>
-              <li><small>responsible for mentoring and teaching other employees</small></li>
-              <li>
-                <small>
-                  responsible for re-factoring of large monolithic application into
-                  micro-services/micro-front-ends
-                </small>
-              </li>
-              <li>
-                <small>
-                  responsible for integration of front-end services into the platform using Docker
-                  &amp; Kubernetes
-                </small>
-              </li>
-            </ul>
+            <p>
+              The <strong>xbAV</strong> platform digitalizes occupational retirement pensions in
+              Germany. It provides a solution for all target groups involved. As a senior front-end
+              engineer at <strong>xbAV</strong>, I am responsible for overall architecture on
+              front-end and for building features, that are available to reuse for the whole
+              platform. I also maintain &amp; build a design system of reusable components and
+              patterns. Each service in the platform is integrated using Docker and Kubernetes.
+            </p>
+
+            <hr />
           </div>
         </div>
 
@@ -52,31 +39,23 @@
           </div>
 
           <div class="column is-8">
-            <strong>AppDirect, Inc.</strong>
+            <h5>AppDirect, Inc.</h5>
 
             <em>
               <small class="job-title">
-                Senior Front-End Engineer - Munich, Germany - October 1st 2015 until February 28th 2018
+                Senior Front-End Engineer - Munich, Germany - October 1st 2015 until February 28th
+                2018
               </small>
             </em>
-            <ul>
-              <li>
-                <small>
-                  responsible for implementation and technical design of new features using React
-                  and Backbone.js
-                </small>
-              </li>
-              <li>
-                <small>
-                  responsible for code reviewing and contributing to core platform
-                </small>
-              </li>
-              <li>
-                <small>
-                  responsible for refactoring of purchase flow into React
-                </small>
-              </li>
-            </ul>
+            <p>
+              <strong>AppDirect</strong> is a digital platform that helps other businesses to
+              succeed by offering them multiple SaaS solutions. As I senior front-end engineer, I
+              was responsible for building important features for monetization suite using React.js.
+              I helped <strong>AppDirect</strong> to provide a theme and additional functionality
+              for a couple of major customers including Vodafone, Swisscom, Deutsche Telekom, etc.
+            </p>
+
+            <hr />
           </div>
         </div>
 
@@ -85,30 +64,46 @@
           </div>
 
           <div class="column is-8">
-            <strong>S&P Global Platts</strong>
+            <h5>S&P Global Platts</h5>
 
             <em>
               <small class="job-title">
                 Front-End Engineer - Munich, Germany - August 1st 2014 until September 30th 2015
               </small>
             </em>
-            <ul>
-              <li>
-                <small>
-                  responsible for implementation of SPA using Angular.js
-                </small>
-              </li>
-              <li>
-                <small>
-                  responsible for implementation of complex charts using Highcharts
-                </small>
-              </li>
-              <li>
-                <small>
-                  worked with Google Maps API
-                </small>
-              </li>
-            </ul>
+            <p>
+              <strong>S&amp;P Global Platts</strong> originally Minerals Value Service is an
+              analytical tool for the iron&amp;ore industry. I worked there as a front-end
+              developer using mostly Angular.js, Highcharts, Google Maps API &amp; SVG animations.
+              Minerals Value Service was a full single-page-application communicating with
+              back-end through JSON APIs.
+            </p>
+
+            <hr />
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+          </div>
+
+          <div class="column is-8">
+            <h5>OrganisedMinds GmbH</h5>
+
+            <em>
+              <small class="job-title">
+                Full-Stack Engineer - Karlsruhe, Germany - March 14th 2011 until July 31st 2014
+              </small>
+            </em>
+            <p>
+              <strong>S&amp;P Global Platts</strong> originally Minerals Value Service is an
+              analytical tool for the iron&amp;ore industry. I worked there as a front-end
+              developer using mostly Angular.js, Highcharts, Google Maps API &amp; SVG animations.
+              Minerals Value Service was a full single-page-application communicating with
+              back-end through JSON APIs.
+            </p>
+
+            <hr />
           </div>
         </div>
       </div>
@@ -143,18 +138,19 @@ strong {
   }
 }
 
-.first-right-column {
-  @media only screen and (max-width: $tablet) {
-    padding-top: 0;
-  }
-}
-
 .job-title {
-  margin-left: $gap;
   color: $grey;
 }
 
 ul {
   margin-top: 0;
+}
+
+h5 {
+  color: $theme-color-1;
+}
+
+hr {
+  margin-bottom: 0;
 }
 </style>

@@ -57,7 +57,7 @@
 
         <div class="column">
           <p>
-            The <strong>AppDirect</strong> is a digital platform that helps businesses to
+            <strong>AppDirect</strong> is a digital platform that helps businesses to
             accelerate sales of applications through their online store. It provides a market
             place as a service for huge enterprise corporations like Vodafone, Swisscom, Deutsche
             Telekom, Telstra, Comcast, ABB, etc. It contains top SaaS and IaaS applications
