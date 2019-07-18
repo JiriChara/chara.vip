@@ -194,6 +194,10 @@ import { createComponent } from 'vue-function-api';
 import CvHeader from '@/components/cv/Header.vue';
 
 export default createComponent({
+  metaInfo: {
+    title: 'Curriculum vitae',
+  },
+
   components: {
     CvHeader,
   },
