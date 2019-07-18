@@ -10,7 +10,7 @@
       <div class="container content">
         <div class="columns">
           <div class="column is-4-tablet left-column">
-            <h4>Employement History</h4>
+            <h4>Employment History</h4>
           </div>
 
           <div class="column is-8">
@@ -18,7 +18,7 @@
 
             <em>
               <small class="job-title">
-                Senior Front-End Engineer - Munich, Germany - April 1st 2018 until now
+                Senior Front-End Engineer - Munich, Germany - April 1st, 2018 until now
               </small>
             </em>
             <p>
@@ -43,7 +43,7 @@
 
             <em>
               <small class="job-title">
-                Senior Front-End Engineer - Munich, Germany - October 1st 2015 until February 28th
+                Senior Front-End Engineer - Munich, Germany - October 1st, 2015 until February 28th,
                 2018
               </small>
             </em>
@@ -68,7 +68,7 @@
 
             <em>
               <small class="job-title">
-                Front-End Engineer - Munich, Germany - August 1st 2014 until September 30th 2015
+                Front-End Engineer - Munich, Germany - August 1st, 2014 until September 30th, 2015
               </small>
             </em>
             <p>
@@ -92,7 +92,7 @@
 
             <em>
               <small class="job-title">
-                Full-Stack Engineer - Karlsruhe, Germany - March 14th 2011 until July 31st 2014
+                Full-Stack Engineer - Karlsruhe, Germany - March 14th, 2011 until July 31st, 2014
               </small>
             </em>
             <p>
@@ -115,7 +115,7 @@
 
             <em>
               <small class="job-title">
-                CAD Designer - Chomutov, Czech Repoblic - November 1st 2006 until August 31st 2010
+                CAD Designer - Chomutov, Czech Republic - November 1st, 2006 until August 31st, 2010
               </small>
             </em>
             <p>
@@ -183,6 +183,88 @@
             <hr />
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <div class="columns">
+          <div class="column is-4-tablet left-column">
+            <h4>Skills</h4>
+          </div>
+
+          <div class="column is-8">
+            <b-taglist>
+              <b-tag type="is-primary" size="is-large">JavaScript</b-tag>
+              <b-tag type="is-primary">TypeScript</b-tag>
+              <b-tag type="is-primary" size="is-large">Vue.js</b-tag>
+              <b-tag type="is-primary">Angular</b-tag>
+              <b-tag type="is-primary">Ruby</b-tag>
+              <b-tag type="is-primary" size="is-large">CSS</b-tag>
+              <b-tag type="is-primary">SASS</b-tag>
+              <b-tag type="is-primary">Stylus</b-tag>
+              <b-tag type="is-primary">Docker</b-tag>
+              <b-tag type="is-primary" size="is-large">Git</b-tag>
+              <b-tag type="is-primary">Linux</b-tag>
+              <b-tag type="is-primary" size="is-large">TDD</b-tag>
+              <b-tag type="is-primary" size="is-large">Node.js</b-tag>
+              <b-tag type="is-primary">MongoDB</b-tag>
+              <b-tag type="is-primary" size="is-large">Redux</b-tag>
+              <b-tag type="is-primary" size="is-large">Vuex</b-tag>
+              <b-tag type="is-primary">PostgreSQL</b-tag>
+              <b-tag type="is-primary">MySQL</b-tag>
+              <b-tag type="is-primary" size="is-large">WebPack</b-tag>
+              <b-tag type="is-primary">ElasticSearch</b-tag>
+              <b-tag type="is-primary">Babel</b-tag>
+              <b-tag type="is-primary" size="is-large">PWA</b-tag>
+              <b-tag type="is-primary">Kafka</b-tag>
+              <b-tag type="is-primary">GraphQL</b-tag>
+            </b-taglist>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <h4>Languages</h4>
+
+        <ul>
+          <li>Czech: Native proficiency</li>
+          <li>English: professional-working proficiency</li>
+          <li>German: professional-working proficiency</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <h4>Driving</h4>
+
+        <p>Holder of European driving license, Catagory B</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <h4>Hobbies & Interests</h4>
+
+        <p>
+          Music, traveling, hiking, cooking, drones, technology, programming, running, tea, spicy
+          food, reading, etc.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content">
+        <h4>Professional Interests</h4>
+
+        <p>
+          Web Development, Single-Page Applications, Vue.js, Progressive Web Applications,
+          Front-End Architecture, Node.js, Mentoring, Front-End Performance, Test-Driven
+          Development, Agile Ways of Working, Get Things Done!
+        </p>
       </div>
     </section>
   </main>
