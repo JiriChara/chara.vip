@@ -14,6 +14,7 @@
     "buefy": "^0.7.10",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-analytics": "^5.17.0",
     "vue-function-api": "^2.0.6",
     "vue-meta": "^2.0.5",
     "vue-progressbar": "^0.7.5",

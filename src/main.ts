@@ -3,6 +3,7 @@ import Buefy from 'buefy';
 import { plugin } from 'vue-function-api';
 import VueProgressBar from 'vue-progressbar';
 import VueMeta from 'vue-meta';
+import VueAnalytics from 'vue-analytics';
 
 import '@fortawesome/fontawesome-free/css/all.css';
 
@@ -26,6 +27,11 @@ Vue.use(plugin);
 Vue.use(Buefy);
 Vue.use(VueProgressBar, progressbarOptions);
 Vue.use(VueMeta);
+
+Vue.use(VueAnalytics, {
+  id: 'UA-110513204-1',
+  router,
+});
 
 const app = new Vue({
   router,
