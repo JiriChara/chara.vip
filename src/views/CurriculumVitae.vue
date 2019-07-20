@@ -231,8 +231,8 @@
 
         <ul>
           <li>Czech: Native proficiency</li>
-          <li>English: professional-working proficiency</li>
-          <li>German: professional-working proficiency</li>
+          <li>English: Professional-working proficiency</li>
+          <li>German: Professional-working proficiency</li>
         </ul>
       </div>
     </section>
