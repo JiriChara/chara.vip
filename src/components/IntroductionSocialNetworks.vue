@@ -45,7 +45,7 @@
       <p>
         Get a glimpse of my life story on
         <a
-          href="https://www.instagram.com/ch4rass"
+          href="https://www.instagram.com/ch4rasss"
           class="instagram"
         >
           <b-icon
